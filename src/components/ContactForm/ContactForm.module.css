@@ -1,0 +1,35 @@
+.formwrapper {
+  margin: 20px auto;
+  width: 350px;
+}
+.form {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  padding: 28px 40px;
+  border: 2px solid blue;
+  box-shadow: 1px 1px 8px 8px rgb(221, 214, 214, 0.3);
+  & button {
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 4px rgb(221, 214, 214, 0.3);
+  }
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+}
+.label {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  & span {
+    font-weight: bold;
+  }
+}
+.input {
+  padding: 6px;
+  border-radius: 5px;
+}
